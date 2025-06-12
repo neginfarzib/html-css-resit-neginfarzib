@@ -9,6 +9,7 @@ body {
   min-height: 100vh; 
 }
 
+
 main {
   flex: 1; /* this pushes footer down when content is short */
 }
@@ -60,6 +61,20 @@ nav a {
     color: #fff;
     font-size: 1.5rem;
  }
+
+ .section-home-background{
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+   margin-bottom: 3%;
+   background-image: url(../assets/home-background\ .jpg);
+}
+.section-home-background h1 {
+   margin: 0 30px; 
+   padding: 0;
+}
+
 
  @media(min-width: 600px){
     nav{
@@ -129,5 +144,14 @@ nav a {
  .logo-footer{
    width: 6rem; 
  }
+
+ .h1-home{
+    width: 30%;
+ }
+
+ .h1-home p{
+    margin: 30px;
+ }
+
 
      
