@@ -133,9 +133,14 @@ hr{
 .img-box {
     width: 400px;
     height: 250px;
-    margin: 60px;
 }
-
+.row-img-box-container{
+    justify-content: space-around;
+}
+.img-box-container{
+    margin: 10px;
+    text-align: center;
+}
 
 .row-footer {
     display: flex;
@@ -170,6 +175,7 @@ footer {
 
 .logo-footer {
     width: 6rem;
+    margin: 10px;
 }
 
 .h1-home {
@@ -221,6 +227,10 @@ footer {
     text-align: center;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+}
 .row-box {
 
     display: flex;
