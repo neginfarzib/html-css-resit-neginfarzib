@@ -89,8 +89,15 @@ header {
     background-image: url(../assets/grass.jpg)
 }
 
-hr{
+.hr-home{
     border: 1px solid #000000;
+    width: 80%;
+}
+
+.hr-contact-us{
+    border: none;
+    height: 1px;
+    background-color: orangered;
     width: 80%;
 }
 
@@ -265,4 +272,70 @@ footer {
 .row-img-contact-us-container{
     margin-top: 50px;
     justify-content: space-around;
+}
+.row-container-contact-input{
+    justify-content: space-around;
+}
+.container-contact-input{
+    width: 500px;
+    margin: 20px;
+    text-align: left;
+}
+.container-contact-input h1{
+    color: white;
+}
+.container-contact-input p{
+    color: white;
+}
+.container-contact-input-div{
+    display: flex;
+}
+.container-contact-input input[type="text"] {
+    flex: 1;
+    margin-left: 5px;
+}
+.container-contact-input textarea {
+    flex: 1;
+    margin-left: 5px;
+}
+.container-contact-input input[type="text"],
+.container-contact-input textarea {
+    width: 100%;
+    padding: 12px 5px;
+    margin-bottom: 16px;
+    font-size: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.container-contact-input textarea {
+    min-height: 120px;
+}
+
+.container-contact-input button {
+    background-color: #ccc;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.container-contact-input button:hover {
+    background-color: #e7e3e3;
+}
+
+.divider{
+    height: 1px;
+    background-color: white;
+    width: 80%;
+    margin: 50px auto;
+
+}
+.contact-us-black-section{
+    background-color: black;
+    padding-bottom: 1px
 }
