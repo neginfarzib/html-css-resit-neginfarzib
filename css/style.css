@@ -67,12 +67,12 @@ header {
 }
 
 .section-home-background {
+    padding-top: 1px; /* Creates a tiny buffer so margin won't escape. It is for margin collapsing which cause white space between image and header */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    margin-bottom: 3%;
-    background-image: url(../assets/home-background\ .jpg);
+    background-image: url(../assets/home-background.jpg);
 }
 
 .section-home-background h1 {
@@ -175,6 +175,14 @@ footer {
 
 .h1-home p {
     margin: 30px;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.h1-home h1 {
+    margin: 30px;
+    font-size: 3rem;
+    color:#ffffff;
 }
 
 .h1-home button {
