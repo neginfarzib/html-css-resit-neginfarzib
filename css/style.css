@@ -232,7 +232,6 @@ footer {
     flex-direction: row;
 }
 .row-box {
-
     display: flex;
     width: 70%;
     justify-content: center;
@@ -252,3 +251,18 @@ footer {
     margin: 0 auto;
 }
 
+.img-contact-us{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.img-contact-us-container{
+    width: 500px;
+    background-color: #cecece;
+    margin: 20px;
+    text-align: center;
+}
+.row-img-contact-us-container{
+    margin-top: 50px;
+    justify-content: space-around;
+}
