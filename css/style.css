@@ -256,6 +256,12 @@ footer {
     color: #fff;
     width: 90%; 
     margin: 0 auto;
+    font-size: large;
+}
+.section-tours-text {
+    padding: 20px;
+    width: 90%; 
+    margin: 0 auto;
 }
 
 .img-contact-us{
