@@ -182,14 +182,14 @@ footer {
     padding: 15px 32px;
 }
 
-.row-p{
+.row-p {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
     background-color: black;
     color: white;
-    gap: 10rem; 
+    gap: 10rem;
 
 }
 
@@ -201,3 +201,33 @@ footer {
     flex-direction: column;
     text-align: center;
 }
+.content-about {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.row-box {
+
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.img-box-cycling {
+    width: 500px;
+    margin: 20px;
+}
+
+.section-about-background-text {
+    background: rgba(102, 102, 102, 0.4);
+    padding: 20px;
+    color: #fff;
+    width: 90%; 
+    margin: 0 auto;
+}
+
