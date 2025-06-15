@@ -71,7 +71,7 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(../assets/home-background.jpg);
 }
 
@@ -100,14 +100,44 @@ header {
     background-color: orangered;
     width: 80%;
 }
+#nav-div-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+}
+nav{
+    padding: 0px;
+}
 
-@media(min-width: 600px) {
+nav a{
+    padding: 0px;
+    border-bottom: white solid 1px;
+}
+
+header{
+    background-color: #cccccc;
+}
+
+.footer-column div p{
+    font-size: 0.8rem;
+}
+
+@media(min-width: 660px) {
     nav {
         display: flex;
         position: static;
         justify-content: center;
         align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
     }
+    nav a{
+        padding: 10px 20px;
+        border-bottom: none;
+        display: inline-block;
+    }
+
 
     #nav-div-1 {
         display: flex;
@@ -131,14 +161,34 @@ header {
         display: block;
     }
 
-    nav a {
-        display: inline-block;
+
+    .h1-home {
+        width: 30%;
     }
+
+    .h1-home h1 {
+        font-size: 3rem;
+    }
+
+    .row-p{
+        padding:10px ;
+    }
+
+    .footer-column {
+        margin: 0 50px;
+        align-items: center;
+        color: #ffffff;
+    }
+
+    .footer-column div p{
+        font-size: 1.1rem;
+    }
+
 
 }
 
 .img-box {
-    width: 400px;
+    max-width: 400px;
     height: 250px;
 }
 .row-img-box-container{
@@ -156,10 +206,10 @@ header {
     justify-content: space-between;
 }
 
-
-
 .footer-column {
-    margin: 0 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
     align-items: center;
     color: #ffffff;
 }
@@ -176,7 +226,6 @@ footer {
 
 .social-icon a img {
     width: 20px;
-    width: 20px;
     filter: brightness(0) invert(1);
 }
 
@@ -186,24 +235,34 @@ footer {
 }
 
 .h1-home {
-    width: 30%;
+    width: 50%;
 }
 
 .h1-home p {
     margin: 30px;
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: #ffffff;
 }
 
 .h1-home h1 {
     margin: 30px;
-    font-size: 3rem;
+    font-size: 2.2rem;
     color:#ffffff;
+}
+
+button{
+    background-color: #ccc;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 20px;
 }
 
 .h1-home button {
     margin: 30px;
-    padding: 15px 32px;
 }
 
 .row-p {
@@ -213,12 +272,12 @@ footer {
     padding: 20px;
     background-color: black;
     color: white;
-    gap: 10rem;
+    gap: 5rem;
 
 }
 
 .content {
-    margin: 0;
+    margin: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -246,7 +305,7 @@ footer {
 }
 
 .img-box-cycling {
-    width: 500px;
+    max-width: 350px;
     margin: 20px;
 }
 
@@ -319,17 +378,6 @@ footer {
     min-height: 120px;
 }
 
-.container-contact-input button {
-    background-color: #ccc;
-    padding: 12px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    margin-left: 5px;
-    margin-top: 20px;
-}
-
 .container-contact-input button:hover {
     background-color: #e7e3e3;
 }
@@ -348,4 +396,5 @@ footer {
 
 iframe{
     margin-top: 50px;
+    width: 100%;
 }
