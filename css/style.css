@@ -84,7 +84,7 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
     margin-bottom: 3%;
     background-image: url(../assets/grass.jpg)
 }
@@ -237,9 +237,9 @@ footer {
 .row {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .row-box {
-    display: flex;
     width: 70%;
     justify-content: center;
     margin: 0 auto;
@@ -344,4 +344,8 @@ footer {
 .contact-us-black-section{
     background-color: black;
     padding-bottom: 1px
+}
+
+iframe{
+    margin-top: 50px;
 }
